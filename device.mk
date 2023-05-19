@@ -211,7 +211,8 @@ PRODUCT_PACKAGES += \
     init.mi.usb.sh \
     init.sensors_fix.sh \
     init.target.rc \
-    ueventd.lisa.rc
+    ueventd.lisa.rc \
+    init.cust.rc
 
 # IR
 PRODUCT_PACKAGES += \
