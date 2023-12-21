@@ -212,7 +212,8 @@ PRODUCT_PACKAGES += \
     init.sensors_fix.sh \
     init.target.rc \
     ueventd.lisa.rc \
-    init.cust.rc
+    init.cust.rc \
+    init.recovery.cust.rc
 
 # IR
 PRODUCT_PACKAGES += \
