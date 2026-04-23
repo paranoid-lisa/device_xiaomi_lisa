@@ -190,7 +190,7 @@ SOONG_CONFIG_ufsbsg += ufsframework
 SOONG_CONFIG_ufsbsg_ufsframework := bsg
 
 # Screen density
-TARGET_SCREEN_DENSITY := 400
+TARGET_SCREEN_DENSITY := 391
 
 # Security patch level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
