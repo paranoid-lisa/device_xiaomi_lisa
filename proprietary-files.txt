@@ -877,22 +877,23 @@ vendor/lib64/libvppimmotion.so
 vendor/lib64/libvpplibrary.so
 vendor/lib64/vendor.qti.hardware.vpp@2.0.so
 
-# Media (Dolby Vision) - from MIUI V13.0.8.0.SKOMIXM
-vendor/bin/hw/dolbycodec2|cfef1c14f3cb696580229240590164c846bf14aa
-vendor/etc/dolby_vision.cfg|16447ca0a10b37869737cc15b495e8a3f6763bfa
-vendor/etc/init/dolbycodec2.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
-vendor/etc/media_codecs_with_dolby_yupik.xml|bbd24a7967257dadc6a4e0a72271fb3053940f1f
-vendor/lib/c2.dolby.avc.dec.so|46d92835722ec8bee6160ecbd74f4876b9605cdb
-vendor/lib/c2.dolby.avc.sec.dec.so|df128db1afa1527b28c6188e414f3f79ecb30293
-vendor/lib/c2.dolby.client.so|33b96ef37f0708f44b3726ef376bc64722d2ed58
-vendor/lib/c2.dolby.egl.so|8d1710568a36178e1742113668626d37d8173c8a
-vendor/lib/c2.dolby.hevc.dec.so|3c1eafc7feffad3bb2279ef027b5d3a441306227
-vendor/lib/c2.dolby.hevc.sec.dec.so|664f12c499bc236628b92d1179e0290b0b5b1bf7
-vendor/lib/c2.dolby.store.so|08d26054d08062a508e53ad2751baa8590a6d3cf
-vendor/lib/libcodec2_hidl@1.0.so:vendor/lib/libcodec2_hidl@1.0.stock.so|443ccbe72e40a0dfb6d8270174aa0a372cbfc181
-vendor/lib/libcodec2_vndk.so:vendor/lib/libcodec2_vndk.stock.so|42e3109ed49a47106f2834320d99da34c41b8221
-vendor/lib/libdolbyottcameracontrol.so|3758b2541004c5d9a2935ed134afbabb66d6a315
-vendor/lib/libdovi.so|185d52f232cfd2ec7156ee5103593ac12f04cb1f
+# Media (Dolby Vision) - from MIUI OS2.0.8.0.UKOMIXM
+vendor/bin/hw/dolbycodec2|73ce028c752478eebb76400c2fbfedd118ece0c9
+vendor/etc/dolby_vision.cfg|3abaa23b5c1fa2897ac5eaa0f2083d7fd90833d1
+vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|1ea8b363e94fd4f5410cadceb30de8229fb38045
+vendor/etc/media_codecs_with_dolby_lahaina.xml|ab1b01e6835e2c518fc0ec5b347255107b2dea8c
+vendor/etc/media_codecs_with_dolby_shima.xml|d8b1046e704180025c4a43bb1766d6808dc23e1c
+vendor/etc/media_codecs_with_dolby_yupik.xml|ef56ecbb1714bb00fea34a2976cbe772d8b1b37c
+-vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml|b8603a98264c1092448c17834abd9b552b8c63ae
+vendor/lib64/c2.dolby.client.so|0a4cd144b1246eb9c44f236e6b528ed33a5b0ca5
+vendor/lib64/c2.dolby.hevc.dec.so|9b4e84124ab616ff30f49b246187ccb4abc7de62
+vendor/lib64/c2.dolby.hevc.sec.dec.so|e1a67d18a54d27426eb2d0c4770aba601e73ece0
+vendor/lib64/c2.dolby.store.so|f2a9b9f47b5d56979f25e0a552118b39c7b9ee1a
+vendor/lib64/libdolbyottcameracontrol.so|8736267da3133561f22653c4dde630563eb4caa2
+system_ext/lib/libdolbyeffect.so|de49e9383e5db74f2476212392257d0ab9baf4c8
+system_ext/lib/libdolbyottcontrol.so|57e233616430a0de17c02d1dc93d8fcce42ae87d
+system_ext/lib64/libdolbyeffect.so|3bb041f062a25824cdf9fcca751fdafa7870fa2b
+system_ext/lib64/libdolbyottcontrol.so|67e48459696d06cc325ef0433eb076543f67e1f4
 
 # Mlipay
 -vendor/app/IFAAService/IFAAService.apk
