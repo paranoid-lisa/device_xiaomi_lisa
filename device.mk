@@ -352,6 +352,9 @@ endif
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/lisa/lisa-vendor.mk)
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Verified Boot
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml
