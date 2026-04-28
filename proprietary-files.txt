@@ -85,6 +85,7 @@ vendor/lib/soundfx/libqcompostprocbundle.so
 vendor/lib/soundfx/libqcomvisualizer.so
 vendor/lib/soundfx/libqcomvoiceprocessing.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib64/libDecoderProcessor.so
 
 # Audio calibration
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -1392,3 +1393,8 @@ vendor/lib64/libwfddisplayconfig_proprietary.so
 vendor/lib64/libwfdhdcpcp.so
 vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
+
+# Others
+vendor/lib/libcodec2_vndk.so
+vendor/lib64/libcodec2_hidl@1.0.so
+vendor/lib/vndk/libstagefright_foundation.so
